@@ -27,13 +27,16 @@ When the program starts, we want to:
 ( You can add more features/enhancements if you'd like to. )
 """
 # write your code inside this function.
-import random
-import time
-
-
 high_score = 100
+
+
 def start_game():
+    import random
+    import time
     global high_score
+
+
+
     print("-----------------------------------------------------------------------------")
     print("Hello! Welcome to the number guessing game!")
     print("The current high score for this session is... {}".format(high_score))
